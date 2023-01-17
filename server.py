@@ -25,7 +25,7 @@ def predict(sl,sw,pl,pw):
 def main():
     st.title("IRIS Prediction")
     html_temp = """
-    <div style="background-color:Yellow;padding:10px">
+    <div style="background-color:Black;padding:10px">
     <h2 style="color:white;text-align:center;">Streamlit IRIS PREDICTOR </h2>
     </div>
     """
@@ -41,6 +41,7 @@ def main():
     if st.button("About"):
         st.text("Lets LEarn")
         st.text("Built with Streamlit")
+        st.text('Have a Great DAY')
 
 #if __name__=='__main__':
 main()
