@@ -26,7 +26,7 @@ def main():
     st.title("IRIS Prediction")
     html_temp = """
     <div style="background-color:Black;padding:10px">
-    <h2 style="color:white;text-align:center;">Streamlit IRIS PREDICTOR </h2>
+    <h2 style="color:white;text-align:center;">STREAMLIT IRIS PREDICTOR </h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
